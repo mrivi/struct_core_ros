@@ -1,5 +1,8 @@
-<?xml version="1.0"?>
+
 <launch>
 	<rosparam command="load" file="$(find struct_core_ros)/launch/sc.yaml"/>
 	<node pkg="struct_core_ros" type="sc" name="sc" output="screen"/>
+
+
+
 </launch>

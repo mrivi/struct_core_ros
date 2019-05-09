@@ -11,14 +11,14 @@
 
   <depend>roscpp</depend>
   <depend>rosconsole</depend>
-  <depend>geometry_msgs</depend> 
-  <depend>rosbag</depend> 
+  <depend>geometry_msgs</depend>
+  <depend>rosbag</depend>
   <depend>nodelet</depend>
   <depend>cv_bridge</depend>
   <depend>image_transport</depend>
 
-  <export>
+  <!-- <export>
     <nodelet plugin="${prefix}/plugins.xml" />
-  </export>
-  
+  </export> -->
+
 </package>
